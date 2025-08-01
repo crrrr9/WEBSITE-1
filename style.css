@@ -1,0 +1,176 @@
+body {
+
+margin: 0;
+
+font-family: Arial, sans-serif;
+
+background-color:snow;
+
+color: black;
+
+}
+
+header {
+
+background-color:navy;
+
+color: white;
+
+padding: 20px 30px;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+}
+
+.logo img {
+
+height: 60px;
+
+width: auto;
+
+display:block;
+
+}
+
+.logo{
+
+display: flex;
+
+align-items:center;
+
+}
+nav a {
+
+color:white;
+
+text-decoration: none;
+
+margin-left: 20px;
+
+font-weight: bold;
+
+}
+
+.hero {
+
+background-color: lightsteelblue;
+
+text-align: center;
+
+padding: 100px 20px;
+
+}
+
+
+
+.hero h1 {
+
+font-size: 40px;
+
+margin-bottom: 10px;
+
+}
+
+.hero p {
+
+font-size: 18px;
+
+margin-bottom: 20px;
+
+}
+
+.button-group {
+
+display: flex;
+
+justify-content: center;
+
+gap: 20px; /* spacing between buttons */
+
+margin-top: 20px;
+}
+
+.btn{
+
+display: inline-block;
+
+padding: 10px 25px;
+
+border-radius: 5px;
+
+text-decoration: none;
+
+font-weight: bold;
+
+text-align:center;
+
+min-width: 100px;
+}
+
+/* Separate styles for login and register buttons */
+
+.btn.login {
+
+background-color:mediumseagreen;
+
+color: white;
+
+}
+
+.btn.register {
+
+background-color:
+
+steelblue;
+
+color: white;
+
+}
+
+.features {
+
+display: flex;
+
+justify-content: space-around;
+
+padding: 50px 20px;
+
+background-color: lavender;
+
+}
+
+.feature {
+
+text-align: center;
+
+width: 30%;
+
+}
+
+.cta {
+
+background-color: lightseagreen;
+
+text-align: center;
+
+padding: 60px 20px;
+
+color: white;
+
+}
+
+footer {
+
+background-color:black;
+
+color: white;
+
+text-align: center;
+
+padding: 15px;
+
+}
